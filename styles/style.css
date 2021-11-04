@@ -24,6 +24,7 @@ img {
     width: 300px;
     height: 300px;
     border-radius: 20px;
+    cursor: pointer;
     
 }
 
@@ -31,4 +32,30 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.overlay {
+    position: relative; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 300%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.cat-image:hover .overlay{
+    opacity: 1;
+}
+
+.dog-image:hover .overlay{
+    opacity: 1;
+}
+
+.horse-image:hover .overlay{
+    opacity: 1;
 }
