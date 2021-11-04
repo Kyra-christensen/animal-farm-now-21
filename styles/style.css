@@ -1,3 +1,7 @@
+body{
+    background-color: steelblue;
+}
+
 .main-section{
     display: grid;
     grid-template-columns: 100px 100px 100px;
@@ -13,6 +17,7 @@ header{
     align-items: center;
     border-bottom: dotted 3px;
     margin-bottom: 20px;
+    background-color: gray;
 }
 
 img {
@@ -20,4 +25,10 @@ img {
     height: 300px;
     border-radius: 20px;
     
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
