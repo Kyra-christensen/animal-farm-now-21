@@ -32,3 +32,24 @@ horseImage.addEventListener('click', () =>{
     console.log(horseClick); horseClick++;
     headerBox.textContent = ('You clicked on the Horse!');
 });
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'c'){
+        catSound.play();
+        headerBox.textContent = ('You clicked the Cat!');
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'd'){
+        dogSound.play();
+        headerBox.textContent = ('You clicked the Dog!');
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'h'){
+        horseSound.play();
+        headerBox.textContent = ('You clicked the Horse!');
+    }
+});
