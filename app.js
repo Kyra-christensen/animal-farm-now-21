@@ -52,4 +52,4 @@ document.addEventListener('keydown', (event) => {
         horseSound.play();
         headerBox.textContent = ('You clicked the Horse!');
     }
-});
+});                    
